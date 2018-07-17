@@ -7,3 +7,8 @@ My Attempt to build my own lisp working through the tutorial found [here](http:/
 
 **Compile and run - Link program with editline**
 `cc -std=c99 -Wall your_file.c -ledit -o output_file_name && ./output_file_name`
+
+**compile flags**
+- -o: outfile
+- -std=c99: c version to compile to
+- -ledit: tells compiler to link editline library
